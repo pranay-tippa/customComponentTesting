@@ -82,6 +82,12 @@
               "value" : ""
           },
           {
+              "component": "text",
+              "name": "customFunctionsPath",
+              "label": "Custom Functions Path",
+              "valueType": "string"
+          },
+          {
               "component": "boolean",
               "name": "enableRestEndpointPost",
               "label": "Enable POST request",
@@ -178,12 +184,6 @@
               ]
           }
       ]
-    },
-    {
-      "component": "text",
-      "name": "customFunctionsPath",
-      "label": "Custom Functions Path",
-      "valueType": "string"
     },
     {
       "...": "./models/form-components/_*.json#/models"
