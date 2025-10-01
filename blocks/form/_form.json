@@ -61,6 +61,12 @@
               "condition": { "==": [{ "var": "thankYouOption" }, "message"] }
           },
           {
+              "component": "text",
+              "name": "customFunctionsPath",
+              "label": "Custom Functions Path",
+              "valueType": "string"
+          },
+          {
               "component": "select",
               "valueType": "string",
               "name": "actionType",
@@ -81,12 +87,7 @@
               ],
               "value" : ""
           },
-          {
-              "component": "text",
-              "name": "customFunctionsPath",
-              "label": "Custom Functions Path",
-              "valueType": "string"
-          },
+
           {
               "component": "boolean",
               "name": "enableRestEndpointPost",
