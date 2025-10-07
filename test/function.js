@@ -7,3 +7,5 @@
 function testRTE(field, globals) {
   globals.functions.setProperty(field, {label: {value: '<p>test</p>', richText: true}});
 }
+
+export { testRTE };
