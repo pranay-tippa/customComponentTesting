@@ -42,5 +42,16 @@ function days(endDate, startDate) {
   return Math.floor(diffInMs / (1000 * 60 * 60 * 24));
 }
 
+/**
+ * Test function
+ * @param {object} field
+ * @param {scope} globals Global scope object
+ * @returns {void}
+ */
+function testRTE(field, globals) {
+  globals.functions.setProperty(field, {label: {value: '<p>test</p>', richText: true}});
+}
+
+
 // eslint-disable-next-line import/prefer-default-export
-export { getFullName, days, submitFormArrayToString };
+export { getFullName, days, submitFormArrayToString, testRTE };
